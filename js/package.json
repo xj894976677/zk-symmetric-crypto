@@ -1,6 +1,6 @@
 {
-  "name": "@reclaimprotocol/zk-symmetric-crypto",
-  "version": "5.0.5",
+  "name": "@joclaim/zk-symmetric-crypto",
+  "version": "0.1.0",
   "description": "JS Wrappers for Various ZK Snark Circuits",
   "type": "module",
   "exports": {
@@ -50,7 +50,7 @@
     "lib"
   ],
   "peerDependencies": {
-    "@reclaimprotocol/tls": "*",
+    "@joclaim/tls": "*",
     "koffi": "*",
     "p-queue": "*",
     "snarkjs": "*"
@@ -73,7 +73,7 @@
     "@adiwajshing/eslint-config": "github:adiwajshing/eslint-config",
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
-    "@reclaimprotocol/tls": "^0.1.0",
+    "@joclaim/tls": "^0.1.0",
     "@types/node": "^22.0.0",
     "circom_tester": "^0.0.20",
     "circomlib": "^2.0.5",
@@ -81,7 +81,7 @@
     "eslint": "^8.57.1",
     "koffi": "^2.8.11",
     "p-queue": "^8.0.0",
-    "snarkjs": "git+https://github.com/reclaimprotocol/snarkjs.git",
+    "snarkjs": "npm:@joclaim/snarkjs@^0.1.0",
     "tinybench": "^3.0.3",
     "typescript": "^5.2.2"
   }

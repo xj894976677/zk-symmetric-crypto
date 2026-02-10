@@ -1,4 +1,4 @@
-import { concatenateUint8Arrays } from '@reclaimprotocol/tls'
+import { concatenateUint8Arrays } from '@joclaim/tls'
 import { CONFIG } from './config.ts'
 import type { BlockInfo, EncryptionAlgorithm, GenerateProofOpts, GenerateWitnessOpts, GetPublicSignalsOpts, Proof, RawPublicInput, VerifyProofOpts, ZKProofInput, ZKProofPublicSignals } from './types.ts'
 import { ceilToBlockSizeMultiple, getBlockSizeBytes, getCounterForByteOffset, splitCiphertextToBlocks } from './utils.ts'

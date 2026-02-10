@@ -11,7 +11,7 @@ import type { Logger } from '../types.ts'
 const execPromise = promisify(exec)
 const logger: Logger = console
 
-const ZIP_URL = `https://github.com/reclaimprotocol/zk-symmetric-crypto/archive/${GIT_COMMIT_HASH}.zip`
+const ZIP_URL = `https://github.com/xj894976677/zk-symmetric-crypto/archive/${GIT_COMMIT_HASH}.zip`
 const DOWNLOAD_DIR = './zk-symmetric-crypto-download'
 const EXTRACTED_DIR = `./zk-symmetric-crypto-${GIT_COMMIT_HASH}`
 

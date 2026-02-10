@@ -1,4 +1,4 @@
-import { setCryptoImplementation } from '@reclaimprotocol/tls'
-import { webcryptoCrypto } from '@reclaimprotocol/tls/webcrypto'
+import { setCryptoImplementation } from '@joclaim/tls'
+import { webcryptoCrypto } from '@joclaim/tls/webcrypto'
 
 setCryptoImplementation(webcryptoCrypto)

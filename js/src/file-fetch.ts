@@ -1,7 +1,7 @@
 import { GIT_COMMIT_HASH } from './config.ts'
 import type { FileFetch } from './types.ts'
 
-const DEFAULT_REMOTE_BASE_URL = `https://github.com/reclaimprotocol/zk-symmetric-crypto/raw/${GIT_COMMIT_HASH}/resources/`
+const DEFAULT_REMOTE_BASE_URL = `http://localhost:8001/browser-rpc/resources/`
 const DEFAULT_BASE_PATH = '../resources'
 
 export type MakeRemoteFileFetchOpts = {

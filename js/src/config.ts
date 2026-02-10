@@ -1,4 +1,4 @@
-import { type AuthenticatedSymmetricCryptoAlgorithm, crypto } from '@reclaimprotocol/tls'
+import { type AuthenticatedSymmetricCryptoAlgorithm, crypto } from '@joclaim/tls'
 import type { AlgorithmConfig, EncryptionAlgorithm } from './types.ts'
 import { bitsToUint8Array, bitsToUintArray, toUint8Array, toUintArray, uint8ArrayToBits, uintArrayToBits } from './utils.ts'
 

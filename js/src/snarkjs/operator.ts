@@ -1,5 +1,5 @@
 import PQueue from 'p-queue'
-// @ts-expect-error
+// @ts-ignore
 import * as snarkjs from 'snarkjs'
 import type { CircuitWasm, Logger, MakeZKOperatorOpts, VerificationKey, ZKOperator } from '../types.ts'
 import { serialiseValuesToBits } from '../utils.ts'
@@ -69,9 +69,9 @@ export function makeSnarkJsZKOperator({
 				}
 
 				try {
+					// @ts-ignore
 					const rslt = await snarkjs.wtns.getWtnsCalculator(
-						await circuitWasm,
-						logger
+						await circuitWasm
 					)
 
 					return rslt
@@ -109,6 +109,7 @@ export function makeSnarkJsZKOperator({
 			zkey ||= getZkey()
 			const { data } = await zkey
 
+			// @ts-ignore
 			const { proof } = await concurrencyLimiter.add(() => (
 				snarkjs.groth16.prove(
 					data,
